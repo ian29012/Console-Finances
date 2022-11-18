@@ -285,4 +285,4 @@ console.log("Greatest Increase in Profits: " + finances[profits.indexOf(profitsM
 
 // The greatest decrease in losses (date and amount) over the entire period.
 const profitsMin = Math.min(...profits);
-console.log("Greatest Increase in Profits: " + finances[profits.indexOf(profitsMin)]);
+console.log("Greates Decrease in Profits: " + finances[profits.indexOf(profitsMin)]);
